@@ -6,7 +6,7 @@ function calcular(){
     let resultado;
 
     if(raca == "" || ano == ""){
-        alert("Existe Campos em Branco, Preencha-os!!!")
+        alert("Existe Campos em Branco, Preencha-os!!!");
     }else{
         if(porte == "pequeno"){
             resultado = (ano * 12.5);
