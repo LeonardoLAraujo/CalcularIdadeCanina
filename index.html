@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Idade Canina</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body class="papelParede">
+    
+    <h1>Cacular idade do seu Cãozinho</h1>
+    <p class="descricao">*Esse calculo só é precisamente para os 2 primeiros anos do cachorrinho,
+        cada raça tem uma velocidade diferente de avançar os anos. 
+        Ou seja, algumas levam mais tempo que outras para passar uma etapa da vida 
+        e outras levem bem menos tempo. Então, a partir do terceiro ano de vida, o 
+        número de multiplicação muda para cada raça.
+    </p>
+    <form name="frm_idade">
+        <div class="conteiner">
+            <p>Raça: </p>
+            <input type="text" name="txt_raca" size="25" maxlength="40">
+
+            <p>Porte: </p>
+            <select name="idadeCanina">
+                <option value="pequeno">Pequeno</option>
+                <option value="medio">Médio</option>
+                <option value="grande">Grande</option>
+            </select>
+
+            <p>Idade: </p>
+            <input type="text" name="txt_ano" size="10">
+
+        </div>
+
+        <div class="btn">
+            <button onClick="calcular()">Calcular</button>
+        </div>
+    </form>
+
+</body>
+</html>

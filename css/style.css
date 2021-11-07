@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin:  0;
+    font-family: arial;
+    color:  white;
+    
+}
+
+.papelParede{
+    background-image: url("https://maepuraeincomparavel.com/wp-content/uploads/2017/01/Cachorro.jpg");
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.conteiner{
+    display: flex;
+    margin-left: 24%;
+}
+
+input{
+    margin-right: 2%;
+    margin-left: 0.2%;
+    font-size: 18px;
+    color: black;
+}
+
+p{
+    font-size: 19px;
+}
+
+select{
+    margin-left: 0.3%;
+    font-size: 18px;
+    margin-right: 1%;
+    color: black;
+}
+
+select option{
+    color: black;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.btn button{
+    padding: 0.3% 5% 0.3% 5%;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.btn button:hover{
+    background-color: white;
+    color: black;
+}
+
+.descricao{
+    font-size: 15px;
+    color: blue;
+    text-align: center;
+    margin-top: -2%;
+    margin-bottom: 3%;
+}
